@@ -131,20 +131,6 @@
             android:defaultValue="false" /> -->
 </PreferenceCategory>
 
-<com.android.settings.custom.preference.SystemSettingSeekBarPreference
-        android:max="50"
-        android:min="-5"
-        android:title="@string/status_bar_left_padding"
-        android:key="SB_PADDING_LEFT"
-        android:defaultValue="0" />
-
-     <com.android.settings.custom.preference.SystemSettingSeekBarPreference
-        android:max="50"
-        android:min="-5"
-        android:title="@string/status_bar_right_padding"
-        android:key="SB_PADDING_RIGHT"
-        android:defaultValue="0" />
-
     <PreferenceCategory
         android:title="@string/qs_title">
         <com.android.settings.custom.preference.SystemSettingListPreference
