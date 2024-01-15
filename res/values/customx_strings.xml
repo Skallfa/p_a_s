@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+	<string name="device_info_protected_single_press">Tap to show info</string>
+
+	<!-- QS Header image -->
+    <string name="qs_header_image_title">QS Header image</string>
+
+	<!-- SB paddings -->
+    <string name="status_bar_left_padding">SB Left Padding</string>
+    <string name="status_bar_right_padding">SB Right Padding</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
 
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
