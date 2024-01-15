@@ -7,6 +7,8 @@
     <string name="status_bar_left_padding">SB Left Padding</string>
     <string name="status_bar_right_padding">SB Right Padding</string>
 
+	<string name="display_lockscreen_rotation_title">Lock screen</string>
+
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
