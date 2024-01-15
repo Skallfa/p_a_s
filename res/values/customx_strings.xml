@@ -3,9 +3,6 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
 	<string name="device_info_protected_single_press">Tap to show info</string>
 
-	<!-- QS Header image -->
-    <string name="qs_header_image_title">QS Header image</string>
-
 	<!-- SB paddings -->
     <string name="status_bar_left_padding">SB Left Padding</string>
     <string name="status_bar_right_padding">SB Right Padding</string>
