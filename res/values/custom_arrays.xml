@@ -383,6 +383,7 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
+        </string-array>
 
     <!-- App lock timeout -->
     <string-array name="app_lock_timeout_entries">
