@@ -9,14 +9,6 @@
         android:key="quicksettings_settings"
 	android:title="@string/quicksettings_settings_title">
 
-	<com.android.settings.custom.preference.SecureSettingSeekBarPreference
-        android:key="qs_header_image"
-        android:title="@string/qs_header_image_title"
-        android:defaultValue="0"
-        settings:interval="1"
-        android:max="64"
-        android:min="0" />
-
      <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="qs_panel_style"
         android:title="@string/qs_styles_title"
