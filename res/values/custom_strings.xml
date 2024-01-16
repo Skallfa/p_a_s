@@ -370,4 +370,11 @@
     <string name="hide_from_launcher_summary">
         Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
     </string>
+
+    <!-- Quick settings styles -->
+    <string name="default_string">Default</string>
+    <string name="qs_styles_title">QS tile theme</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Two-tone accent</string>
+    <string name="qs_shaded">Shaded</string>
 </resources>
