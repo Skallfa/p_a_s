@@ -318,12 +318,6 @@
     <string name="brightness_slider_style_line">Thin Outline</string>
     <string name="brightness_slider_style_lighty">Lighty</string>
 
-    <!-- Quick settings styles -->
-    <string name="qs_styles_title">QS tile styles</string>
-    <string name="qs_outline">Outline</string>
-    <string name="qs_two_tone">Two-tone accent</string>
-    <string name="qs_shaded">Shaded</string>
-
     <!-- Edge light -->
     <string name="edge_light_title">Edge light</string>
     <string name="enable_edge_light">Enable edge light</string>
