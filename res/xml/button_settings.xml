@@ -93,6 +93,22 @@
         android:summary="%s"
         android:defaultValue="2" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="VOLUME_TEXTVIEW"
+            android:title="@string/volume_persen_switch_title"
+            android:summary="@string/volume_persen_switch_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="VOLUME_TEXTVIEW_STYLE"                                                   
+            android:title="@string/volume_persen_style_title"
+            android:summary="%s"
+            android:dialogTitle="@string/volume_persen_style_title"
+            android:entries="@array/volume_persen_style_entries"
+            android:dependency="VOLUME_TEXTVIEW"                                                     
+            android:entryValues="@array/volume_persen_style_values"
+            android:defaultValue="0" />
+
         <ListPreference
             android:key="volume_key_cursor_control"
             android:dialogTitle="@string/volbtn_cursor_control_title"
