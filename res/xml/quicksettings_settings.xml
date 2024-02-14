@@ -29,5 +29,17 @@
             android:title="@string/qs_dual_tone_title"
             android:summary="@string/qs_dual_tone_summary"
             android:defaultValue="false" />
+
+	<PreferenceCategory
+        android:title="@string/qs_header_category_title">
+
+		<com.android.settings.custom.preference.SystemSettingSeekBarPreference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="64"
+            android:min="0" />
+     </PreferenceCategory>
      
 </PreferenceScreen>
