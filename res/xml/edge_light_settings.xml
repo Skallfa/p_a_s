@@ -20,7 +20,7 @@
         android:selectable="false"
         android:persistent="false" />
 
-    <com.android.settings.custom.preference.SystemSettingMainSwitchPreference
+    <com.android.settings.preferences.SystemSettingMainSwitchPreference
         android:key="edge_light_enabled"
         android:title="@string/enable_edge_light"
         android:defaultValue="false" />
