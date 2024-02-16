@@ -5,6 +5,10 @@
 
 	<string name="display_lockscreen_rotation_title">Lock screen</string>
 
+	<!-- SB paddings -->
+    <string name="status_bar_left_padding">SB Left Padding</string>
+    <string name="status_bar_right_padding">SB Right Padding</string>
+
 	<!-- QS Header image -->
     <string name="qs_header_category_title">QS Header</string>
     <string name="qs_header_image_title">QS Header image</string>
