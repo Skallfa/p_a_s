@@ -72,6 +72,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private PreferenceCategory mStatusBarBatteryCategory;
     private PreferenceCategory mStatusBarClockCategory;
     private PreferenceCategory mStatusBarBrightnessCategory;
+    private Preference mCombinedSignalIcons;            
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -101,6 +102,20 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 com.android.internal.R.bool.config_automatic_brightness_available)){
             mStatusBarBrightnessCategory.removePreference(mStatusBarQsShowAutoBrightness);
         }
+        mCombinedSignalIcons = findPreference("persist.sys.flags.combined_signal_icons");
+        mCombinedSignalIcons.setOnPreferenceChangeListener(this);    
+    }
+
+                @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+             if (preference == mCombinedSignalIcons) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                Settings.Secure.ENABLE_COMBINED_SIGNAL_ICONS, value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+        }
+        return false;
     }
 
     @Override
