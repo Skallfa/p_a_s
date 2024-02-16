@@ -11,6 +11,18 @@
     <string name="qs_header_random_image_title">QS Header random image</string>
     <string name="qs_header_random_image_summary">Enable random QS Header image</string>
 
+	<!-- Blink flashlight for incoming calls -->
+	<string name="flashlight_on_call_title">Blink flashlight for incoming calls</string>
+	<string name="flashlight_on_call_disabled">Disabled</string>
+	<string name="flashlight_on_call_ringer">When ringing</string>
+    <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
+    <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
+    <string name="flashlight_on_call_always">Always</string>
+	<string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
+    <string name="flashlight_on_call_rate_title">Rate</string>
+    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+
 	<!-- Notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
