@@ -244,6 +244,28 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+
+         <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="flashlight_on_call"
+            android:title="@string/flashlight_on_call_title"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values"
+            android:defaultValue="0" />
+
+         <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="flashlight_on_call_ignore_dnd"
+            android:title="@string/flashlight_on_call_ignore_dnd_title"
+            android:summary="@string/flashlight_on_call_ignore_dnd_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.custom.preference.CustomSeekBarPreference
+            android:key="flashlight_on_call_rate"
+            android:title="@string/flashlight_on_call_rate_title"
+            android:summary="@string/flashlight_on_call_rate_summary"
+            android:max="5"
+            android:min="1"
+            settings:defaultValue="1"
+            settings:units="Hz" />
               
     </PreferenceCategory>
 </PreferenceScreen>
