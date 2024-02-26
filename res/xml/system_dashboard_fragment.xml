@@ -59,6 +59,14 @@
         android:order="-225"
         android:fragment="com.android.settings.quicksettings.QuicksettingsSettings"/>
 
+     <Preference
+        android:key="userinterface_settings"
+        android:title="@string/userinterface_settings_title"
+        android:summary="@string/userinterface_settings_summary"
+        android:icon="@drawable/ic_settings_ui"
+        android:order="-224"
+        android:fragment="com.android.settings.userinterface.UserinterfaceSettings"/>
+
     <Preference
         android:key="date_time_settings"
         android:title="@string/date_and_time"
