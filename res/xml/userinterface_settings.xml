@@ -9,4 +9,12 @@
         android:key="userinterface_settings"
         android:title="@string/userinterface_settings_title">
 
+     <!-- Icon pack -->
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:icon="@drawable/ic_drawing"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.android.settings.fragments.ui.StatusbarIcons"/>
+
 </PreferenceScreen>
