@@ -4,7 +4,7 @@
  *
  */
 
-package com.pixeldust.settings.userinterface;
+package com.android.settings.userinterface;
 
 import android.os.Bundle;
 
