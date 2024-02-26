@@ -15,7 +15,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 @SearchIndexable
-public class QuicksettingsSettings extends SettingsPreferenceFragment {
+public class UserinterfaceSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
