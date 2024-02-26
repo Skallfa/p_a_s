@@ -10,8 +10,8 @@
     <string name="status_bar_right_padding">SB Right Padding</string>
 
 	<!-- User Interface settings -->
-    <string name="quicksettings_settings_title">User interface</string>
-    <string name="quicksettings_settings_summary">Customize the ui</string>
+    <string name="userinterface_settings_title">User interface</string>
+    <string name="userinterface_settings_summary">Customize the ui</string>
 
 	<!-- QS Header image -->
     <string name="qs_header_category_title">QS Header</string>
