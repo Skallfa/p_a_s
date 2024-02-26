@@ -24,6 +24,8 @@
 
     <color name="lock_pattern_background">#00000000</color>
 
+      <color name="option_border_default">#5f6368</color>
+
     <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
     <color name="fingerprint_title_color">#ffffffff</color>
     <color name="fingerprint_message_color">#de000000</color>
